@@ -68,6 +68,10 @@ const config: Config = {
       letterSpacing: {
         tighter: "-.04em",
       },
+      fontFamily: {
+        Ubuntu: ["Ubuntu", "sans-serif"],
+        Gothic_J: ["Zen+Kaku+Gothic+Antique", "sans-serif"],
+      },
       fontSize: {
         "5xl": "2.5rem",
         "6xl": "2.75rem",
