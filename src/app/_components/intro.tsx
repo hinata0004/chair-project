@@ -66,7 +66,7 @@ export function Intro() {
           Chair Journey
         </h1>
         <h2 className="font-Gothic_J text-3xl text-center">
-          椅子好きのためのWebサイト
+          椅子が好きになるWebサイト
         </h2>
       </div>
     </section>

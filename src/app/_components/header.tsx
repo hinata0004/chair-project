@@ -14,7 +14,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="text-2xl md:text-4xl font-bold mb-5 mt-2 flex items-center">
-        <Link href="/" className="font-Ubuntu hover:underline">
+        <Link href="/novel" className="font-Ubuntu hover:underline">
           Novel
         </Link>
       </div>
