@@ -23,7 +23,10 @@
     "remark-html": "^16.0.1",
     "shadcn": "^1.0.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zenn-content-css": "^0.1.131",
+    "zenn-markdown-html": "^0.1.131",
+    "zenn-embed-elements": "^0.1.131"
   },
   "devDependencies": {
     "@types/node": "^20.14.8",

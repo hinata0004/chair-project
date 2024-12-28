@@ -57,6 +57,7 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <script src="https://embed.zenn.studio/js/listen-embed-event.js"></script>
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-800 dark:text-white")}
