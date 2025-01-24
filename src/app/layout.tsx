@@ -59,12 +59,14 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         <script src="https://embed.zenn.studio/js/listen-embed-event.js"></script>
       </head>
-      <body
-        className={cn(inter.className, "dark:bg-slate-800 dark:text-white")}
-      >
+      <body className="min-h-screen bg-cream">
         <Header />
         <ThemeSwitcher />
-        <div className="min-h-screen bg-slate-800">{children}</div>
+        <div
+          className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url(/assets/blog/page/sui_yua_bg.png)" }}
+        ></div>
+        <div className="relative z-10 min-h-screen">{children}</div>
       </body>
     </html>
   );

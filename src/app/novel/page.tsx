@@ -10,7 +10,7 @@ const Novel_Page = () => {
         {allNovels.map((novel, index) => (
           <div key={index} className="bg-white flex w-2/3 rounded px-5">
             <img
-              src={"/assets/blog/novel/トーネットチェア.png"}
+              src={"/assets/blog/novel/thonet_chair.png"}
               alt={"page_chair"}
               width={180}
               height={180}
