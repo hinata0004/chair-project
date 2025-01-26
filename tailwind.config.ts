@@ -1,3 +1,4 @@
+import { Kiwi_Maru } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -6,6 +7,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/globals.css",
   ],
   theme: {
     extend: {
@@ -16,6 +18,8 @@ const config: Config = {
         "page-chair": "url(/assets/blog/page/page_chair.jpg)",
       },
       colors: {
+        cream: "#e3d7a3",
+        header_color: "#634720",
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
@@ -71,6 +75,7 @@ const config: Config = {
       fontFamily: {
         Ubuntu: ["Ubuntu", "sans-serif"],
         Gothic_J: ["Zen+Kaku+Gothic+Antique", "sans-serif"],
+        Kiwi_Maru: ["Kiwi Maru", "serif"],
       },
       fontSize: {
         "5xl": "2.5rem",
@@ -86,6 +91,9 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      flexBasis: {
+        "1/12": "8.3333333%", // 12分の1
       },
     },
   },
