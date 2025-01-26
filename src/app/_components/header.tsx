@@ -2,21 +2,37 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex justify-center items-center bg-black bg-opacity-20 sticky top-0 gap-4 z-10 w-screen h-14">
-      <div className="text-2xl md:text-4xl font-bold mb-5 mt-2 flex items-center">
-        <Link href="/" className="font-Ubuntu hover:underline">
+    <div className="flex justify-center items-center sticky top-0 bg-header_color z-20 h-[10vh]">
+      <div className="basis-2/3" />
+      <div className="basis-1/12 text-1xl md:text-2xl font-bold my-auto flex items-center">
+        <Link
+          href="/"
+          className="font-Ubuntu hover:underline text-center block w-full"
+        >
           Top
         </Link>
       </div>
-      <div className="text-2xl md:text-4xl font-bold mb-5 mt-2 flex items-center">
-        <Link href="/" className="font-Ubuntu hover:underline">
-          Article
-        </Link>
-      </div>
-      <div className="text-2xl md:text-4xl font-bold mb-5 mt-2 flex items-center">
-        <Link href="/" className="font-Ubuntu hover:underline">
+      <div className="basis-1/12 text-1xl md:text-2xl font-bold my-auto flex items-center">
+        <Link
+          href="/novel"
+          className="font-Ubuntu hover:underline text-center block w-full"
+        >
           Novel
         </Link>
+      </div>
+      <div className="basis-1/12 text-1xl md:text-2xl font-bold my-auto flex items-center">
+        <Link
+          href="/"
+          className="font-Ubuntu hover:underline text-center block w-full"
+        >
+          Chair
+        </Link>
+      </div>
+      <div className="basis-1/12 text-1xl md:text-2xl font-bold my-auto flex items-center">
+        <Link
+          href="/"
+          className="font-Ubuntu hover:underline text-center block w-full"
+        ></Link>
       </div>
     </div>
   );
