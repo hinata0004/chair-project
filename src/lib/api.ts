@@ -34,7 +34,7 @@ export function getNovelSlugs() {
 
 export function getNovelBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+  const fullPath = join(novelsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 

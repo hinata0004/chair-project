@@ -24,14 +24,20 @@ export default async function Novel(props: Params) {
     <main>
       <Alert preview={novel.preview} />
       <Container>
-        <article className="pb-32 znc">
-          <PostHeader // 小説用のヘッダーに変更
-            title={novel.title}
-            coverImage={novel.coverImage}
-            date={novel.date}
-            author={novel.author}
-          />
-          <PostBody content={content} /> // 小説用の本文コンポーネントに変更
+        {/* <div
+          className="fixed inset-0 bg-cover bg-center bg-no-repeat z-0"
+          style={{ backgroundImage: "url(/assets/blog/page/sui_bg.png)" }}
+        ></div> */}
+        <div className="fixed inset-0 bg-header_color z-0"></div>
+        <img
+          src={"/assets/blog/page/sui_yua_2.png"}
+          alt={"page_chair"}
+          width={200}
+          height={"400"}
+          className="fixed top-10 left-5 z-20"
+        ></img>
+        <article className="relative pb-32 z-20">
+          <PostBody content={content} />
         </article>
       </Container>
     </main>

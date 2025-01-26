@@ -3,10 +3,12 @@ import { type Author } from "./author";
 export type Post = {
   slug: string;
   title: string;
+  dir: string;
+  num: string;
   date: string;
+  count: string;
   coverImage: string;
-  author: Author;
-  excerpt: string;
+  outline: string;
   ogImage: {
     url: string;
   };
