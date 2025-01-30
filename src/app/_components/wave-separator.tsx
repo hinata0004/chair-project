@@ -11,11 +11,11 @@ const WaveSeparator: React.FC<WaveSeparatorProps> = ({
   bottomColor = "black",
 }) => {
   return (
-    <div className="wave-container">
+    <div className="wave-container flex flex-col gap-0">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1280 100"
-        width="100%"
+        className="w-full block"
         // opacity="80%"
       >
         <path
@@ -29,7 +29,7 @@ const WaveSeparator: React.FC<WaveSeparatorProps> = ({
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1280 100"
-        width="100%"
+        className="w-full block"
         opacity="80%"
       >
         <path

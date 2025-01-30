@@ -19,7 +19,7 @@ export function Body() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1280 100"
-        width="100%"
+        className="w-full block"
       >
         <path
           d="M 0 50 Q 160 50 320 75 Q 640 125 960 75 Q 1120 50 1280 50 Q 1440 50 1600 75 Q 1920 125 2240 75 Q 2400 50 2560 50 L 1280 0 L 0 0 Z"

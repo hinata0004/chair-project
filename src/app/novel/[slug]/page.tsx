@@ -24,10 +24,6 @@ export default async function Novel(props: Params) {
     <main>
       <Alert preview={novel.preview} />
       <Container>
-        {/* <div
-          className="fixed inset-0 bg-cover bg-center bg-no-repeat z-0"
-          style={{ backgroundImage: "url(/assets/blog/page/sui_bg.png)" }}
-        ></div> */}
         <div className="fixed inset-0 bg-header_color z-0"></div>
         <img
           src={"/assets/blog/page/sui_yua_2.png"}

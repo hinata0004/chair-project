@@ -15,8 +15,15 @@ const Novel_Page = () => {
         style={{ backgroundImage: "url(/assets/blog/page/sui_bg.png)" }}
       ></div>
       <div className="fixed inset-0 bg-header_color opacity-40 z-10"></div>
-      <div className="relative flex flex-col m-auto gap-3 px-10 z-20">
-        <div className="w-3/5 h-auto mt-5">
+      <div className="relative flex flex-col md:flex-row m-auto gap-3 px-10 z-20">
+        <img
+          src={"/assets/blog/page/sui_yua_2.png"}
+          alt={"page_chair"}
+          width={200}
+          height={200}
+          className="w-1/3 h-min px-5 z-20"
+        ></img>
+        <div className="w-full md:w-3/5 h-auto mt-5">
           {uniqueDirs.map((dir) => (
             <DirNovelList key={dir} dir={dir} novels={allNovels} />
           ))}
