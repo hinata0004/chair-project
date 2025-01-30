@@ -16,6 +16,10 @@ export default function Index() {
   return (
     <main>
       <Container>
+        <div
+          className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url(/assets/blog/page/sui_yua_bg.png)" }}
+        ></div>
         <Intro />
         <WaveSeparator bottomColor="#634720" />
         {/* <HeroPost

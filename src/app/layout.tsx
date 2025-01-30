@@ -62,11 +62,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-cream">
         <Header />
         <ThemeSwitcher />
-        <div
-          className="fixed inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url(/assets/blog/page/sui_yua_bg.png)" }}
-        ></div>
-        <div className="relative z-10 min-h-screen">{children}</div>
+        <div className="relative z-10 h-auto pt-[10vh]">{children}</div>
       </body>
     </html>
   );

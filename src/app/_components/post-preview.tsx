@@ -25,7 +25,7 @@ export function PostPreview({ post }: Props) {
               {post.dir}
             </Link>
           </h2>
-          <h3>{post.outline}</h3>
+          <h3 className="p-1">{post.outline}</h3>
           <div className="flex flex-row">
             {/* <Avatar name={author.name} picture={author.picture} /> */}
             <div className="font-bold text-xs my-auto mx-2">
