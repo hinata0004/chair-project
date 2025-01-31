@@ -9,6 +9,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header"; // 小説専用のヘッダーがあれば変更
 import { PostBody } from "@/app/_components/post-body"; // 小説用のコンポーネントに変更
 import { PostHeader } from "@/app/_components/post-header"; // 小説用のヘッダーに変更
+import { PostTitle } from "@/app/_components/post-title";
 
 export default async function Novel(props: Params) {
   const params = await props.params;
@@ -25,13 +26,10 @@ export default async function Novel(props: Params) {
       <Alert preview={novel.preview} />
       <Container>
         <div className="fixed inset-0 bg-header_color z-0"></div>
-        <img
-          src={"/assets/blog/page/sui_yua_2.png"}
-          alt={"page_chair"}
-          width={200}
-          height={"400"}
-          className="fixed top-10 left-5 z-20"
-        ></img>
+        <PostTitle children={novel.dir} />
+        <h3 className="relative font-Ubuntu z-20 mb-12 text-lg md:text-xl lg:text-2xl text-center">
+          - {novel.title} -
+        </h3>
         <article className="relative pb-32 z-20">
           <PostBody content={content} />
         </article>
