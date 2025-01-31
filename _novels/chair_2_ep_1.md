@@ -3,11 +3,11 @@ title: "ep.1"
 num: "2"
 dir: "羊飼いの椅子"
 outline: "アルネは高原で遊牧を営んでいた牧羊犬人コリーの仕事を手伝っていた。スイは羊飼いが手作りしたという椅子を堪能していたが、その構造に違和感を感じて……。"
-coverImage: "/assets/blog/novel/thonet_chair.png"
+coverImage: "/assets/blog/novel/shepherd_chair.png"
 date: "2025-01-26"
 count: "3748文字"
 ogImage:
-  url: "/assets/blog/novel/thonet_chair.png"
+  url: "/assets/blog/novel/shepherd_chair.png"
 ---
 
 鬱蒼とした森を抜けると、視界を遮るものはない風の寝床のような高原があった。
